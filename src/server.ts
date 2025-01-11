@@ -4,7 +4,7 @@ const server = fastify();
 
 
 server.get("/hello", () => {
-  return "Hello World";
+  return "Hello World"
 });
 
 server.listen({ port: 3333 }).then(() => console.log("Server listing on 3333"));
