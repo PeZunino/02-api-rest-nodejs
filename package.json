@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/server.ts",
@@ -13,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@stylistic/eslint-plugin-js": "^2.12.1",
-    "eslint": "^9.17.0",
+    "@eslint/js": "^9.18.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "eslint": "^9.18.0",
     "globals": "^15.14.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
