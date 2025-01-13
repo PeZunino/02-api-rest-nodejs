@@ -20,7 +20,14 @@ export default [
 			'@stylistic/quotes': ['error', 'single'],
 			'@stylistic/object-property-newline': 'error',
 			'@stylistic/no-multi-spaces': 'error',
-
+			'@stylistic/space-infix-ops': 'error',
+			'@stylistic/padding-line-between-statements':['error',{ blankLine: 'always',
+				prev: '*',
+				next: '*'},
+			{ blankLine: 'any',
+				prev: 'import',
+				next: '*'}
+			],
 			'simple-import-sort/imports': [
 				'error',
 				{
