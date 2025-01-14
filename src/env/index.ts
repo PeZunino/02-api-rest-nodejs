@@ -14,7 +14,10 @@ const envSchema = z.object({
 	])
 		.default('production'),
 	DATABASE_URL: z.string(),
-	PORT: z.number()
+	DATABASE_CLIENT: z.enum([
+		'sqlite','pg'
+	]),
+	PORT: z.coerce.number()
 		.default(3333)
 });
 
