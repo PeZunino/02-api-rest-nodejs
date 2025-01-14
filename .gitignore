@@ -1,6 +1,6 @@
 
 db/app.db
-
+test.db
 # Logs
 logs
 *.log
