@@ -10,6 +10,9 @@ export default [
 		files: [
 			'**/*.{js,mjs,cjs,ts}'
 		],
+		ignores:[
+			'build/**/*', 'node_modules/*'
+		],
 		languageOptions: {globals: globals.node},
 		plugins: {
 			'@stylistic': stylistic,

@@ -1,6 +1,10 @@
 
-db/app.db
-test.db
+# Database
+*.db
+
+# Build
+build
+
 # Logs
 logs
 *.log
@@ -132,3 +136,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+db/test.db
+db/test.db
+db/test.db
