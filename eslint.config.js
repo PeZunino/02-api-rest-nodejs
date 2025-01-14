@@ -31,7 +31,7 @@ export default [
 				}
 			],
 			'@stylistic/array-bracket-newline': [
-				'error', 'always'
+				'error', {'minItems':1}
 			],
 			'@stylistic/brace-style': [
 				'error', '1tbs'
